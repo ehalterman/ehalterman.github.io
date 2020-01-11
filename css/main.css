@@ -1,18 +1,19 @@
 header{
-    font-size: 24px;
+    font-size: 24px;  
 }
 footer, header{
-    background-color:gold;
+    background-color: navy;
     text-align: center;
     border-radius: 10px;
+    color: white;
+    
 }
 header, main, footer{
     margin: 1.25rem auto;
     max-width: 760px;
-    line-height: 1.25;
 }
 img{
-    height: 150px;
+    height: 175px;
     position: relative;
     float: right;
     margin: 10px;
@@ -20,4 +21,10 @@ img{
 }
 hr{
     position: relative;
+}
+footer a{
+    color: gold;
+}
+#update {
+    color: hotpink;
 }

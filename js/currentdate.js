@@ -1,2 +1,5 @@
-const options = {weekday: 'long', day: 'numeric', month:'long', year:'numeric'};
-document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-us', options);
+const options = {year:'numeric'};
+document.getElementById('curyear').textContent = new Date().toLocaleDateString('en-US', options);
+
+const options1 = {day:'numeric', month:'long', year:'numeric', hour:'numeric', minute:'numeric'};
+document.getElementById('lastmod').textContent = new Date(document.lastModified).toLocaleDateString('en-US', options1);
