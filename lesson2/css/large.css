@@ -3,15 +3,16 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    main section picture img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #bbb;
+    }
     section:nth-child(2){
         display: block;
     }
     section:nth-child(3) {
         grid-column: block;
     }
-    main section picture img {
-        width: 100%;
-        height: auto;
-        border: 1px solid #bbb;
-    }
+   
 }
