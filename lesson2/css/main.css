@@ -9,21 +9,35 @@ footer, header{
     color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans Condensed', sans-serif;
+main section{
+    border-radius: 10px;
+    margin: .5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+    background-color: lightgray;
+}
+h1, h2, h3, h4, h5, h6, nav {
+    font-family: 'Oswald', sans-serif;
+}
+h3 {
+    color: white;
+    background-color: darkblue;
 }
     
-header, main, footer{
+header, main, footer {
     margin: 1.25rem auto;
-    max-width: 760px;
-    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1250px;
 }
-img{
-    width: 250px;
-    position: relative;
+img {
+    width: 100%;
+    height: auto;
     margin: 10px;
     border-radius: 10px;
 }
 header a, footer a{
     color: yellow;
 }
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
