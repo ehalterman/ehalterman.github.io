@@ -1,0 +1,46 @@
+body {
+    max-width: 760px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+    box-shadow: 0 2px 15px gray;
+    padding: 2px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+    padding: 10px;
+}
+nav li a {
+    color: white;
+    list-style: none;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+
+}
+header img {
+    float: left;
+    margin: 10px;
+}
+
+img {
+    max-width: 100px;
+}
+#colors {
+    max-width: 500px;
+}
+

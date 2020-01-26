@@ -1,51 +1,11 @@
-header{
-    font-size: 24px; 
-    color: white; 
+@media only screen and (min-width: 32.5em){
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    main section{
+        margin: 0.5rem;
+        border: 1px solid #bbb;
+        padding: 0 1rem;
+    }
 }
-header, main, footer {
-    margin: 0 auto;
-    max-width: 1000px;
-}
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-footer, header{
-    background-color: navy;
-    text-align: center;
-    border-radius: 10px;
-    color: white;
-}
-main section{
-    margin: .5rem;
-    border: 1px solid #bbb;
-    padding: 0 1rem;
-    background-color: lightgray;
-    border-radius: 10px;
-}
-section:nth-child(2) {
-    display: none;
-    margin: 0.5rem;
-}
-h1, h2, h3, h4, h5, h6, nav {
-    font-family: 'Oswald', sans-serif;
-}
-h3 {
-    color: white;
-    background-color: darkblue;
-}
-img {
-    width: 100%;
-    height: auto;
-    margin: 10px;
-    border-radius: 10px;
-}
-header a, footer a{
-    color: yellow;
-}
-p{
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-
-
