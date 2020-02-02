@@ -1,9 +1,5 @@
-
-const hambutton = document.querySelector(".ham");
-hambutton.addEventListener("click", toggleMenu, false);
-
 function toggleMenu() {
-    document.querySelector(".navigation").classList.toggle("responsive");
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
 const options1 = {day:'numeric', month:'long', year:'numeric', hour:'numeric', minute:'numeric'};
