@@ -18,9 +18,12 @@ nav, footer {
     box-shadow: 0 2px 15px gray;
     padding: 2px;
 }
+nav {
+    display: flex;
+}
 li {
     list-style-type: none;
-    display: inline;
+    
     margin: 20px;
     padding: 10px;
     font-family: 'Oswald', sans-serif;
