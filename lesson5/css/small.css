@@ -83,4 +83,54 @@
     nav .current {
         background-color: black;
     }
+    .herodiv {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        padding-left: 0;
+    }
+
+    .summary {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        background-color:  #bacbdd;
+        border: 1px dashed black;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px  #36454f;
+        opacity: .7;
+    }
+    .herodiv img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .forecast{
+        text-align: center;
+        display: none;
+    }
+    ul {
+        list-style: none;
+    }
+    .article img {
+        position: relative;
+        padding: 10px;
+        float: right;
+        flex-shrink: 0;
+        min-height: 100%;
+     }
+    .article {
+        position: relative;
+    }
+    footer img {
+        display: none;
+    }
+    footer div {
+        margin-left: 10px;
+        border-style: none;
+        background-color: #36454f;
+        padding: 10px;
+
+    }
    

@@ -13,6 +13,23 @@
     .navigation li:first-child {
         display: none;
     }
-
+    .forecast {
+        display: block;
+    }
    
+    footer img {
+        display: inline;
+        position: relative;
+        padding-left: 15%;
+        float: left;
+        padding-top: 25px;
+        min-width: 250px;
+
+    }
+   footer div {
+        margin-left: 50%;
+        border-style: none;
+        background-color: #36454f;
+        padding: 10px;
+    }
 }
