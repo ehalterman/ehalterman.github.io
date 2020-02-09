@@ -28,9 +28,10 @@
     .navigation li {
         display: none;
         padding: 10px;
+        color: black;
     }
 
-    .naviation a {
+    .navigation a {
         display: block;
         text-decoration: none;
         color:white;
@@ -51,11 +52,6 @@
         color: white;
         list-style: none;
         text-decoration: none;
-    }
-    nav a:hover {
-        background-color: white;
-        color: black;
-    
     }
     header img {
         float: left;
@@ -79,9 +75,17 @@
     }
     h2 {
         text-align: center;
+        font-family: 'Crete Round', serif;
     }
     nav .current {
         background-color: black;
+    }
+    li:hover {
+        background-color: white;
+        color: black;
+    }
+    nav a:hover {
+        color: black;
     }
     .herodiv {
         position: relative;
@@ -116,12 +120,17 @@
     .article img {
         position: relative;
         padding: 10px;
-        float: right;
         flex-shrink: 0;
-        min-height: 100%;
+        max-width: 100%;
+        max-height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
      }
     .article {
         position: relative;
+        margin-bottom: 10px;
+        display: flow-root;
     }
     footer img {
         display: none;
@@ -132,5 +141,14 @@
         background-color: #36454f;
         padding: 10px;
 
+    }
+    .pancakes {
+        display: none;
+        background-color: gold;
+        color: black;
+        padding: 5px;
+        margin: 0;
+        border: 0;
+        font-family: 'Oswald', sans-serif;
     }
    

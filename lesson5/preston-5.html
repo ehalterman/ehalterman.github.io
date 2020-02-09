@@ -15,7 +15,10 @@
 </head>
 
 <body>
-    <header>
+    <header onload="banner()">
+        <div class="pancakes">
+            <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion</p>
+        </div>
         <img src="images/logo.jpg" alt="Weather Feather Logo">
         <h1>WeatherFeather.com</h1>
         <h2>Hold my feather, what's the weather?</h2>
@@ -41,12 +44,45 @@
             </section>
         </div>
         <div class="forecast">
-            <h4>5 Day Forecast</h4>
-            <ul>
-                <li>Day 1: Snow, Snow, and more Snow!</li>
-                <li>Day 2:Don't Slip! Lay down some salt.</li>
-                <li>Day 3: Still scraping the windsheild</li>
-            </ul>
+            <table>
+                <caption>5 Day Forecast</caption>
+                <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Sunday</th>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">High</th>
+                        <td>42</td>
+                        <td>40</td>
+                        <td>33</td>
+                        <td>33</td>
+                        <td>37</td>  
+                    </tr>
+                    <tr>
+                        <th scope="row">Low</th>
+                        <td>24</td>
+                        <td>24</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Skies</th>
+                        <td>Sunny</td>
+                        <td>Partly Cloudy</td>
+                        <td>Snow</td>
+                        <td>Snow</td>
+                        <td>Cloudy</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div class="article">
             <img src="images/beach.jpg" alt="sunset beach">
