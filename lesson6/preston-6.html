@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Feather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feather Weather's main page for Preston Idaho">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <header onload="banner()">
+        <div class="pancakes" style.display="none">
+            <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion</p>
+        </div>
+        <img src="images/logo.jpg" alt="Weather Feather Logo">
+        <h1>WeatherFeather.com</h1>
+        <h2>Hold my feather, what's the weather?</h2>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="#">Home</a></li>
+                <li class="current"><a href="preston-4.html">Preston</a></liclass="current">
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="herodiv">
+            <img class="feathers" src="images/cit230_image_franklinOriginal.jpeg" alt="Landscape with bright sun in sky">
+            <section class="summary">
+                <h4>Weather Summary</h4>
+                <p>Start looking at vacations, because it's cold!</p>
+            </section>
+        </div>
+        <div class="forecast">
+            <table>
+                <caption>5 Day Forecast</caption>
+                <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Sunday</th>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">High</th>
+                        <td>42</td>
+                        <td>40</td>
+                        <td>33</td>
+                        <td>33</td>
+                        <td>37</td>  
+                    </tr>
+                    <tr>
+                        <th scope="row">Low</th>
+                        <td>24</td>
+                        <td>24</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Skies</th>
+                        <td>Sunny</td>
+                        <td>Partly Cloudy</td>
+                        <td>Snow</td>
+                        <td>Snow</td>
+                        <td>Cloudy</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="article">
+            <img src="images/beach.jpg" alt="sunset beach">
+            <h4>Article</h4>
+            <p>In case you want a beach vacation, start looking here. You could go to Florida or Hawaii, but if you want
+                to save a buck, consider sunny California! A few days on the beach and at the happiest place on earth is
+                just what the doctor ordered!</p>
+        </div>
+    </main>
+    <footer>
+        <img src="images/map.JPG" alt="preston map">
+        <div class="contact">
+            <p> Contact Info:</p>
+            <p>address line 1</p>
+            <p>address line 2</p>
+            <p>Phone Number</p>
+            <p>email address</p>
+        </div>
+        <p>
+            © Weather Feather | Elise J. Halterman | Utah | <a href=" https://www.byui.edu/online">BYUI
+                Online Learning</a>
+        </p>
+        <p id="update">Last Updated: <span id="lastmod"></span></p>
+    </footer>
+    <script type="text/javascript" src="js/main.js">
+    </script>
+</body>
+
+</html>
