@@ -186,4 +186,6 @@
    #ratingvalue {
        padding-left: 10px;
    }
-   
+   #required {
+       color: red;
+   }

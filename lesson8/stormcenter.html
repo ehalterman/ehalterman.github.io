@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Storm Center</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Feather Weather's page to input storm data">
@@ -40,22 +40,23 @@
     <main>
         <h2>Preston Idaho</h2>
         <h3>Input Form for Storms</h3>
+        <form>
         <div>
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" required minlength="5" pattern="[A-Za-z]">
+        <label for="fullname">Full Name:<span id="required">*</span></label>
+        <input type="text" id="fullname" minlength="5" pattern="[A-Za-z]"  required>
         </div>
         <div>
         <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="abc@123.com" >
+        <input type="email" id="email" placeholder="abc@123.com">
         </div>
 
         <div>
-        <label for="number">Phone Number:</label>
+        <label for="number">Phone Number:<span id="required">*</span></label>
         <input type="tel" id="number" required>
         </div>
 
         <div>
-        <label for="zcode">Zip Code:</label>
+        <label for="zcode">Zip Code:<span id="required">*</span></label>
         <input type="number" id="zcode" required>
         </div>
 
@@ -105,8 +106,10 @@
         </div>
 
         <div id="button">
-        <input onclick="window.location.href='thanks.html'" type="submit" id="submit" value="Send Form">
+        <input onclick="window.location.href='thanks.html'" id="submit" value="Send Form" type="submit" />
         </div>
+
+        </form>
 
         <datalist id ="stormtypes">
             <option value="Flash Flood">
