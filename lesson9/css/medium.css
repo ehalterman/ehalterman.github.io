@@ -1,28 +1,28 @@
 @media only screen and (min-width: 600px){
-.towndata {
-    display: flex;
-    flex-wrap: wrap;
-    vertical-align: middle;
-    max-width: 400px;
-}
-section {
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
+    .towndata {
+        display: flex;
+        flex-wrap: wrap;
+        vertical-align: middle;
+        max-width: 400px;
+    }
+    section {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        
+    }
     
-}
-
-section:nth-child(3) {
-    flex-direction: row-reverse;
-}
-
-section img {
-    width: unset;
-    margin: 15px;
-
-}
-section h2, section h3, section p {
-    display: contents;
-}
-
-}
+    section:nth-child(3) {
+        flex-direction: row-reverse;
+    }
+    
+    section img {
+        width: unset;
+        margin: 15px;
+    
+    }
+    section h2, section h3, section p {
+        display: contents;
+    }
+    
+    }

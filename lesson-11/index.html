@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Feather Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feather Weather's Home Page">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <aside>
+        <div id="pancakes" style="display: none;">
+            "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion"
+        </div>
+    </aside>
+    <header>
+        <img src="images/logo.jpg" alt="Weather Feather Logo">
+        <h1>WeatherFeather.com</h1>
+        <h2>Hold my feather, what's the weather?</h2>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="preston/preston.html">Preston</a></liclass="current">
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter/stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="towndata"></div>
+    </main>
+    <footer>
+        <img id="map" src="images/map.JPG" alt="preston map">
+        <div class="contact">
+            <p>Contact Info:</p>
+            <p>123 Weather Road</p>
+            <p>Anytown, ID</p>
+            <p>800.555.5555</p>
+            <p>featherweathrer@url.com</p>
+        </div>
+        <p>
+            © Weather Feather | Elise J. Halterman | Utah | <a href=" https://www.byui.edu/online">BYUI
+                Online Learning</a>
+        </p>
+        <p id="update">Last Updated: <span id="lastmod"></span></p>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/towndata.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+        WebFont.load({
+            google: {
+                families: [
+                    "Open Sans Condensed"
+                ]
+            }    
+        })     
+        </script>
+</body>
+
+</html>
