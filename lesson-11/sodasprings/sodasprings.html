@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Soda Springs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feather Weather's main page for Preston Idaho">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <aside>
+        <div id="pancakes" style="display: none;">
+            "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion"
+        </div>
+    </aside>
+    <header>
+        <img src="images/logo.png" alt="Weather Feather Logo">
+        <h1>WeatherFeather.com</h1>
+        <h2>Hold my feather, what's the weather?</h2>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li class="current"><a href="preston.html">Preston</a></liclass="current">
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="../stormcenter/stormcenter.html">Storm Center</a></li>
+                <li><a href="../gallery/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Soda Springs Idaho</h2>
+        <div class="herodiv">
+            <img class="feathers" srcset="
+            images/hero1200large.jpg 1200w, 
+            images/hero800medium.jpg 800w,
+            images/hero400small.jpg 400w"
+            sizes="(min-width: 800px) 100vw"
+            src="images/hero1200large.jpg" alt="blue feathers" 
+             >
+            <section class="summary">
+                <h4>Weather Summary</h4>
+                <p>Currently: <span id="current"></span></p>
+                <p>High: <span id="temperature"></span>&#176F</p>
+                <p>Wind Chill: <span id="chill" value=""></span>&#176F</p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Wind Speed: <span id="windspeed" value=""></span> mph</p>
+            </section>
+        </div>
+        <div class="forecast">
+            <table>
+                <caption>5 Day Forecast</caption>
+                <thead>
+                <tr>
+                    <th scope="col" id="day1"></th>
+                    <th scope="col" id="day2"></th>
+                    <th scope="col" id="day3"></th>
+                    <th scope="col" id="day4"></th>
+                    <th scope="col" id="day5"></th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span id="temp1"></span>&#176F</td>
+                        <td><span id="temp2"></span>&#176F</td>
+                        <td><span id="temp3"></span>&#176F</td>
+                        <td><span id="temp4"></span>&#176F</td>
+                        <td><span id="temp5"></span>&#176F</td>
+                        
+
+                    </tr>
+                    
+                    <tr>
+                        <td><img src="" alt="" id="icon1"></td>
+                        <td><img src="" alt="" id="icon2"></td>
+                        <td><img src="" alt="" id="icon3"></td>
+                        <td><img src="" alt="" id="icon4"></td>
+                        <td><img src="" alt="" id="icon5"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="article">
+            <img src="images/beach.jpg" alt="sunset beach">
+            <h4>Article</h4>
+            <p>In case you want a beach vacation, start looking here. You could go to Florida or Hawaii, but if you want
+                to save a buck, consider sunny California! A few days on the beach and at the happiest place on earth is
+                just what the doctor ordered!</p>
+        </div>
+    </main>
+    <footer>
+        <img src="images/map.JPG" alt="preston map">
+        <div class="contact">
+            <p>Contact Info:</p>
+            <p>123 Weather Road</p>
+            <p>Anytown, ID </p>
+            <p>800.555.5555</p>
+            <p>featherweather@url.com</p>
+        </div>
+        <p>
+            © Weather Feather | Elise J. Halterman | Utah | <a href=" https://www.byui.edu/online">BYUI
+                Online Learning</a>
+        </p>
+        <p id="update">Last Updated: <span id="lastmod"></span></p>
+        <p>Weather information from: <a href="https://openweathermap.org/">openweathermap.org</a></p>
+    </footer>
+    <script type="text/javascript" src="js/main.js">
+    </script>
+    <script src="js/pancakes.js"></script>
+    <script src="js/prestonapi.js"></script>
+    <script src="js/forecastapi.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+        WebFont.load({
+            google: {
+                families: [
+                    "Open Sans Condensed"
+                ]
+            }    
+        })     
+        </script>
+</body>
+
+</html>

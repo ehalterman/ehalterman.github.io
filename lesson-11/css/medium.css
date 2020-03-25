@@ -1,4 +1,18 @@
 @media only screen and (min-width: 600px){
+    .navigation {
+        display: flex;
+        padding: 0px;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
     .towndata {
         display: flex;
         flex-wrap: wrap;

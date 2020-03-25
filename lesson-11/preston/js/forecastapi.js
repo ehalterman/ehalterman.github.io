@@ -26,6 +26,7 @@ week[3] = "Wed";
 week[4] = "Thur";
 week[5] = "Fri";
 week[6] = "Sat";
+week[7] = "Sun";
 
 document.getElementById("day1").textContent=week[((weekd+7)%7+1)];
 document.getElementById("day2").textContent=week[((weekd+8)%7+1)];
