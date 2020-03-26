@@ -64,7 +64,7 @@
         max-width: 760px;
         font-family: 'Oswald', sans-serif;
     }
-    img {
+    header img, footer img {
         max-width: 60px;
     }
     #colors {

@@ -40,13 +40,11 @@
     <main>
         <h2>Fish Haven Idaho</h2>
         <div class="herodiv">
-            <img class="feathers" srcset="
-            images/hero1200large.jpg 1200w, 
-            images/hero800medium.jpg 800w,
-            images/hero400small.jpg 400w"
-            sizes="(min-width: 800px) 100vw"
-            src="images/hero1200large.jpg" alt="blue feathers" 
-             >
+            <picture class="heroimg">
+                <source media="(min-width: 60em)" srcset="images/fishhavenlarge1200.jpg">
+                <source media="(min-width: 37.5em)" srcset="images/fishhavenmedium800.jpg">
+                <img src="images/fishhavensmall600.jpg" alt="hero div pic">
+            </picture>
             <section class="summary">
                 <h4>Weather Summary</h4>
                 <p>Currently: <span id="current"></span></p>
