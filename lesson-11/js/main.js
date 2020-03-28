@@ -28,7 +28,7 @@ fetch(requestURL)
             towndata.appendChild(currentpopulation);
             towndata.appendChild(averagerain);
             towndata.appendChild(image);
-            //image.setAttribute('alt', towns[i].name);
+            image.setAttribute('alt', towns[i].name);
         }
 
         document.querySelector('div.towndata').appendChild(towndata);
