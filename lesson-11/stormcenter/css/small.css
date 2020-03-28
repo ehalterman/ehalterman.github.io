@@ -189,3 +189,6 @@
    #required {
        color: red;
    }
+   form input:required:invalid {
+       background-color: lightcoral;
+   }

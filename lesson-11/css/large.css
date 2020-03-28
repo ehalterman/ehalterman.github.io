@@ -48,9 +48,9 @@
         grid-template-columns: 1fr 1fr 1fr;
         margin: auto;
     }
-     section:nth-child(2), section:nth-child(4), section:nth-child(5) {
+    /* section:nth-child(2), section:nth-child(4), section:nth-child(5) {
         display: none;
-    }
+    }*/
     section h2, section h3, section p {
         display: block;
     }

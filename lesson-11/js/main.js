@@ -15,7 +15,7 @@ fetch(requestURL)
         let currentpopulation = document.createElement('p');
         let averagerain = document.createElement('p');
         let image = document.createElement('img');
-        if (i == 0 || i == 2 || i == 5) {
+        if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
             h2.textContent = towns[i].name;
             motto.textContent = towns[i].motto;
             yearfounded.textContent = "Year Founded: " + towns[i].yearFounded;
