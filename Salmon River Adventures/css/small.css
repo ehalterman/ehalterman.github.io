@@ -1,0 +1,106 @@
+body {
+    margin: 0 auto;
+}
+    
+header, footer {
+    position: relative;
+    background-color: #244C5A;
+    color: white;
+    text-align: center;
+    font-family: 'Inika', serif;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #AFCDD7;
+    color: black;
+}
+
+.navigation li:first-child {
+    display: block
+}
+
+.navigation li {
+    display: none;
+    padding: 10px;
+    color: black;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+nav .current {
+    background-color: white;
+    color: #244C5A;
+}
+
+.responsive li {
+    display: block;
+}
+
+footer {
+    background-color: #244C5A;
+    padding: 10px;
+}
+    
+header img {
+    float: left;
+    margin: 10px;
+}
+
+h1 {
+    margin: 0px;
+    padding-top: 10px;
+    font-family: 'Inika', serif;
+}
+
+main, footer {
+    margin: 0 auto;
+    max-width: 760px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img, footer img {
+    max-width: 60px;
+}
+button {
+    margin: 10px;
+}
+div {
+    border: 1px solid #FFB990;
+    margin: 10px;
+}
+h2 {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.weatherreport {
+    background-color: #AFCDD7;
+    padding: 0px 10px;
+}
+.weatherreport h3 {
+    font-family: 'Inika', serif;
+}
+.weatherreport p, .weatherreport h3 {
+    padding: 5px;
+    margin: 0px;
+}
+.chunk1 {
+    min-height: 320px;
+}
+.chunk1 img {
+    float: left;
+    padding: 10px;
+}
+.chunk2 {
+    min-height: 170px;
+}
+.chunk2 img {
+    float: right;
+    padding: 10px;
+}
