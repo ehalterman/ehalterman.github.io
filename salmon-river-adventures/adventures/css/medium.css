@@ -1,4 +1,9 @@
 @media only screen and (min-width: 600px){
+    header img {
+        float: left;
+        margin: 10px 10px 0 10px;
+        min-width: 100px;
+    }
     .navigation {
         display: flex;
         padding: 0px;
@@ -13,31 +18,8 @@
     .navigation li:first-child {
         display: none;
     }
-    .weatherreport {
-        width: 27%;
-        float: left;
-    }
-    .chunk1 img {
-        float: left;
-        padding: 10px;
-    }
-    .chunk1 p {
-        padding-top: 50px;
-    }
-    .chunk2 img {
-        padding: 10px;
-        float: right;
-    }
-    .chunk3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 10px;
-    }
-    .chunk3 h3, .chunk3 button {
-        margin-top: 100px;
-    }
-    .chunk3 h3 {
-        padding-right: 10px;
+    div.adventures {
+        grid-template-columns: 1fr 1fr;
     }
 
 }

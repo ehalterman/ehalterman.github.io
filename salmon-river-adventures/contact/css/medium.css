@@ -1,4 +1,9 @@
 @media only screen and (min-width: 600px){
+    header img {
+        float: left;
+        margin: 10px 10px 0 10px;
+        min-width: 100px;
+    }
     .navigation {
         display: flex;
         padding: 0px;
@@ -39,5 +44,12 @@
     .chunk3 h3 {
         padding-right: 10px;
     }
-
+    div.map {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    div.address {
+        padding-top: 50px;
+    }
+   
 }
