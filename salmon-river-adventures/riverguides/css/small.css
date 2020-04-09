@@ -92,7 +92,7 @@ h2 {
     padding: 0px 10px;
     border: 1px solid #244C5A;
 }
-.weatherreport h3 {
+.weatherreport h3, section h3 {
     font-family: 'Inika', serif;
 }
 .weatherreport p, .weatherreport h3 {
@@ -118,3 +118,12 @@ div img {
 p {
     margin: 10px;
 }
+section {
+    display: block;
+    border: 1px solid #244C5A;
+    margin: 10px;
+}
+.riverguide img {
+    max-width: 100%;   
+}
+

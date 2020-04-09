@@ -44,5 +44,13 @@
     .chunk3 h3 {
         padding-right: 10px;
     }
-
+    .riverguide {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .riverguide img {
+        float: left;
+        padding: 10px;
+    }
+    
 }
