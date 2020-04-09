@@ -1,11 +1,12 @@
-[
+{
+"riverguides": [
     {
         "name": "Sage Genevieve",
         "img": "sage.jpg",
         "certlvl": "Expert",
         "experience": "5+ years",
         "email": "sage@url.com",
-        "bio": "Sage is a veteran River Guide. She knows the river like the back of her hand.",
+        "bio": "Sage is a veteran River Guide. She knows the river like the back of her hand."
     },
     {
         "name": "Reeve Jones",
@@ -13,7 +14,7 @@
         "certlvl": "Intermediate",
         "experience": "2 years",
         "email": "reeve@url.com",
-        "bio": "Reeve has spent the last 2 years with Salmon River Adventures and has gained the experience to prove it!",
+        "bio": "Reeve has spent the last 2 years with Salmon River Adventures and has gained the experience to prove it!"
     },
     {
         "name": "Gavin Bennett",
@@ -21,6 +22,7 @@
         "certlvl": "Novice",
         "experience": "First Year",
         "email": "gavin@url.com",
-        "bio": "Gavin is new this summer, but is learning from the best is and has the best team teaching him the ropes.",
+        "bio": "Gavin is new this summer, but is learning from the best is and has the best team teaching him the ropes."
     }
 ]
+}
