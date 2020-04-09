@@ -33,6 +33,95 @@
         </nav>
     </header>
     <main>
+        <div class="adventures">
+            <table>
+                <caption>Adventure Options</caption>
+                <thead>
+                <tr>
+                    <th> </th>
+                    <th>Length</th>
+                    <th>Skill Level</th>
+                    <th>Cost</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>White Water Rafting</td>
+                        <td>4 hours</td>
+                        <td>Advanced</td>
+                        <td>$150/person</td>
+                    </tr>
+                    <tr>
+                        <td>White Water Rafting</td>
+                        <td>8 hours</td>
+                        <td>Advanced</td>
+                        <td>$250/person</td>
+                    </tr>
+                    <tr>
+                        <td>Zip Lining</td>
+                        <td>1 hour</td>
+                        <td>Advanced</td>
+                        <td>$75/person</td>
+                    </tr>
+                    <tr>
+                        <td>Kayaking</td>
+                        <td>4 hours</td>
+                        <td>Beginner</td>
+                        <td>$50/person</td>
+                    </tr>
+                    <tr>
+                        <td>Kayaking</td>
+                        <td>8 hours</td>
+                        <td>Beginner</td>
+                        <td>$80/person</td>
+                    </tr>
+                    <tr>
+                        <td>Paddle Boarding</td>
+                        <td>4 hours</td>
+                        <td>Intermediate</td>
+                        <td>$35/person*</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>*add $25 if you'd like 1 hour of instruction</p>
+        </div>
+        <div class="reservation">
+            <form>
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div>
+                    <label for="type">Adventure Selection:</label>
+                    <input list="adventures" id="type">
+                </div>
+                <div>
+                    <label for="date">Adventure Date:</label>
+                    <input type="date" id="date">
+                </div>
+                <div>
+                    <label for="comments">Questions/Comments:</label>
+                    <textarea id="comments" rows="5" cols="50"></textarea>
+                </div>
+                <button>Reserve Now</button>
+            </form>
+            <datalist id="adventures">
+                <option value="Rafting (4 hour)">
+                <option value="Rafting (8 hour)">
+                <option value="Zip Lining">
+                <option value="Kayaking (4 hour)">
+                <option value="Kayaking (8 hour)">
+                <option value="Paddle Boarding">
+            </datalist>
+        </div>
 
 
     </main>

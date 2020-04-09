@@ -118,3 +118,30 @@ div img {
 p {
     margin: 10px;
 }
+.adventures {
+    display: block;
+    
+}
+table {
+    border-collapse: collapse;
+    max-width: 600px;
+}
+table, td, th {
+    border: 2px solid #244C5A;
+    padding: 10px;
+}
+caption {
+    font-family: 'Inika', serif;
+}
+form div {
+    border: none;
+}
+div label {
+    float:left;
+    text-align: right;
+}
+
+textarea {
+   display: block;
+   margin: 10px;
+}

@@ -44,5 +44,8 @@
     .chunk3 h3 {
         padding-right: 10px;
     }
+    table {
+        margin: 10px 25%;
+    }
 
 }
