@@ -124,7 +124,7 @@ div.form {
 }
 
 div.address {
-    border: 1px solid #244C5A; 
+    border: none;
     max-width: 300px;
     display: inline-block;
 }

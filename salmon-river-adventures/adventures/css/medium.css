@@ -21,5 +21,8 @@
     div.adventures {
         grid-template-columns: 1fr 1fr;
     }
+    div.adventures img {
+        max-width: 100%;
+    }
 
 }
