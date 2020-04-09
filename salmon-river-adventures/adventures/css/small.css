@@ -98,3 +98,6 @@ div ul {
     list-style: none;
     text-align: left;
 }
+main h2 {
+    font-size: 24px;
+}

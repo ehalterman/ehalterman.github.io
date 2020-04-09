@@ -1,7 +1,7 @@
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
   }
-
+     
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?zip=83549,us&units=imperial&APPID=8789dd92c7cf955322e78e6d6bb50d55"
 fetch(apiURL)
     .then((response) => response.json())

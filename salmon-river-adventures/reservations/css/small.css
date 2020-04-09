@@ -135,13 +135,13 @@ caption {
 }
 form div {
     border: none;
+    text-align: left;
 }
-div label {
-    float:left;
-    text-align: right;
+label {
+    float: left;
 }
 
 textarea {
-   display: block;
-   margin: 10px;
+    display: block;
+    margin: 10px;
 }
